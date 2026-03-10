@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Dashboard</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <div><a href="index.html">Dashboard</a></div>
+    <div><a href="form.html">Form</a></div>
+    <div><a href="#">Sales Management</a></div>
+    <div><a href="form.html">Supplier Management</a></div>
+    <div><a href="form.html">Stock Management</a></div>
+    <div><a href="form.html">Transport Management</a></div>
+  </div>
+
+  <div class="main-content">
+    <h1>Sales Registration</h1>
+
+    <form>
+
+      <div class="main-container">
+
+        <div class="work">
+          <label for="sales-date">Sales Date</label>
+          <input type="date" id="sales-date">
+        </div>
+
+        <div class="work">
+          <label for="sales-person">Sales Person</label>
+          <select id="sales-person">
+            <option value="">Choose Representative</option>
+            <option value="jane">Jane Mugeni</option>
+            <option value="mirembe">Mirembe Jane</option>
+          </select>
+        </div>
+
+      </div>
+
+      <h2>Customer Details</h2>
+
+      <div class="grid-container">
+
+        <div class="work2">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter full name">
+        </div>
+
+        <div class="work2">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" maxlength="10" placeholder="Phone number">
+        </div>
+
+        <div class="work2">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Email">
+        </div>
+
+        <div class="work2">
+          <label for="customer-type">Type</label>
+          <input type="text" id="customer-type" placeholder="Select Customer Type">
+        </div>
+
+      </div>
+
+      <h3>Items</h3>
+
+      <div class="items-container">
+
+        <div class="work3">
+          <label for="product-id">Product ID</label>
+          <input type="text" id="product-id" placeholder="Product ID">
+        </div>
+
+        <div class="work3">
+          <label for="product-name">Product Name</label>
+          <input type="text" id="product-name" placeholder="Product Name">
+        </div>
+
+        <div class="work3">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity">
+        </div>
+
+        <div class="work3">
+          <label for="quantity2">Quantity</label>
+          <input type="number" id="quantity2">
+        </div>
+
+        <div class="work3">
+          <label for="unit-price">Unit Price</label>
+          <input type="number" id="unit-price">
+        </div>
+
+        <div class="work3"> 
+          <label for="unit-price2">Unit Price</label>
+          <input type="number" id="unit-price2">
+        </div>
+
+      </div>
+<div class="button">
+      <button type="reset">Cancel</button>
+      <button class="blue" type="submit">Submit</button>
+</div>
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
